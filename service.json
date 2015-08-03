@@ -1,0 +1,42 @@
+{
+  "services": [
+    {
+      "id": "3495a9c8-d465-4c9f-943a-52ae057740e3",
+      "bindable": true,
+      "name": "azurestorage",
+      "description": "Azure Storage Service",
+      "tags": [
+        "Azure",
+        "Storage"
+      ],
+      "metadata": {
+        "displayName": "Azure Storage",
+        "providerDisplayName": "Azure"
+      },
+      "plans": [
+        {
+          "name": "default",
+          "id": "9086a84e-9b81-46e4-805f-6ec93564467f",
+          "description": "Azure Storage default plan",
+          "public": true,
+          "free": true,
+          "metadata": {
+            "displayName": "",
+            "bullets": [""],
+            "costs": {
+               "amount": {
+                 "usd": 1
+               },
+               "unit": "MONTHLY"
+            }
+          }
+        }
+      ],
+      "dashboard_client": {
+        "id": "82ea5b0b-d4f1-4583-8e60-d04c8b7a0e0f",
+        "secret": "secret-1",
+        "redirect_uri": "https://dashboard.service.com"
+      }
+    }
+  ]
+}

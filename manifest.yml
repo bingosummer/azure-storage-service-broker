@@ -1,0 +1,9 @@
+---
+applications:
+- name: azure-storage-service-broker
+  command: python azurestorageservicebroker.py
+  env:
+    SUBSCRIPTION_ID: SUBSCRIPTION-ID # <--- Replace it
+    CERTIFICATE: CERTIFICATE # <--- Replace it
+    AZURE_STORAGE_ACCOUNT: AZURE-STORAGE-ACCOUNT # <--- Replace it
+    AZURE_ACCESS_KEY: AZURE-ACCESS-KEY # <--- Replace it
