@@ -11,8 +11,9 @@ cf marketplace
 
 # Build and run a demo app
 cd ~/azure-storage-consumer
-cf push azure-storage-consumer
+cf push azure-storage-consumer --no-start
 
+sleep 5
 # Create and bind the service instance
 cf create-service azurestorage default myblobservice
 cf bind-service azure-storage-consumer myblobservice
